@@ -45,13 +45,12 @@ public class Student
     {
         this.course = course;
     }
-    
     /**
      * Print the student's name and ID number to the output terminal.
      */
     public void print()
     {
-        System.out.println(" Student ID: " + id + " Name: " + name);
+       System.out.println(" Student ID: " + id + " Name: " + name);
     }
     
     public void printCourse()
