@@ -1,0 +1,42 @@
+Student Devine = new Student("Devine", 22136752);
+Student Devine = new Student("Devine", 22136752);
+Course BusinessManagementIT = new Course("BB1BMI1", "BSc Business Management and Information Technology");
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BusinessManagementIT);
+Devine.print();
+ Student ID: 22136752 Name: Devine
+Devine.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1BMI1: BSc Business Management and Information Technology
+
+co452.getCredit()
+    returned int 0
+co452.SetCredit(15);
+co452.print();
+ Module Code: CO452: Programming Concepts
+
+BusinessManagementIT.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1BMI1: BSc Business Management and Information Technology
+
+co452.print();
+ Module Code: CO452: Programming Concepts
+
+Student Devine = new Student("Devine", 22136752);
+Course BusinessManagementIT = new Course("BB1BMI1", "BSc Business Management and Information Technology");
+Module co452 = new Module("CO452", "Programming Concepts");
+Module co452 = new Module("CO452", "Programming Concepts");
+Course BusinessManagementIT = new Course("BB1BMI1", "BSc Business Management and Information Technology");
+BusinessManagementIT.assignModule(co452);
+BusinessManagementIT.print();
+ Course Code: BB1BMI1: BSc Business Management and Information Technology
+ Module Code: CO452: Programming Concepts
+ Credit: 0
+
+
