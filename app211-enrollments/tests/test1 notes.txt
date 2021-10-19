@@ -1,0 +1,13 @@
+Student Devine = new Student("Devine", 22136752);
+Student Devine = new Student("Devine", 22136752);
+Course BusinessManagementIT = new Course("BB1BMI1", "BSc Business Management and Information Technology");
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BusinessManagementIT);
+Devine.print();
+ Student ID: 22136752 Name: Devine
+Devine.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1BMI1: BSc Business Management and Information Technology
