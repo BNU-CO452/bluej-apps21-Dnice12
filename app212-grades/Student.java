@@ -70,7 +70,7 @@ public class Student
         for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);
-            mark.setMark(75);
+            mark.setMark(value);
             value = value - 10;
             marks.add(mark);
         }
