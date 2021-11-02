@@ -46,6 +46,8 @@ public class StockList
      */
     public void buyProduct(int productID, int amount)
     {
+        Product product = findProduct(productID);
+        product.increaseQuantity(amount);
     }
     
     /**
@@ -54,6 +56,13 @@ public class StockList
      */
     public Product findProduct(int productID)
     {
+        for(Product product : stock) 
+        {
+          if(product.getID()== productID)
+          {
+            return product;
+          }
+        }
         return null;
     }
     
@@ -133,7 +142,7 @@ public class StockList
     public void printHeading()
     {
         System.out.println();
-        System.out.println(" Peacock's Stock List");
+        System.out.println(" Emanuels' Stock List");
         System.out.println(" ====================");
         System.out.println();
     }
