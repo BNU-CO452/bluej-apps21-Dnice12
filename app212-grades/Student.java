@@ -3,9 +3,9 @@ import java.util.*;
  * The Student class represents a student in a student administration system.
  * It holds the student details relevant in our context.
  * 
- * @author Michael Kölling and David Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2021-08-18
+ * @author Devine Emanuels
+ * Modified Devine Emanuels
+ * @version 19/10/2021
  */
 public class Student
 {
@@ -24,7 +24,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("Devine", 22136752);
     }
     
     /**
@@ -67,7 +67,14 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 75;
+        for(Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(75);
+            value = value - 10;
+            marks.add(mark);
+        }
     }
     
     /**
@@ -103,11 +110,20 @@ public class Student
     }
     
     private void printModules()
-    {
+    { 
+        for(ModuleMark mark : marks)
+        {
+            mark.print();
+            System.out.printin
+    }
+         
+         
 
+    
+        
     }
     
-    public void printTranscript()
+     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
@@ -122,7 +138,9 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
-       
+        printModules();
+        
+
         Grades finalGrade = course.calculateGrade(marks);
         
         System.out.println();
@@ -137,4 +155,4 @@ public class Student
             System.out.println(" Final Course Grade = " + finalGrade);
         }
     }
-}
+    }
