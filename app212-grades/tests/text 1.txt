@@ -1,0 +1,27 @@
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine
+
+ Course G400: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	Programming Concepts	  15	75A
+
+ co455: 	Software Engeneering	  15	75A
+
+ co458: 	Business	  15	75A
+
+ co454: 	Web Programming	  15	75A
+
+
+ Final Course Grade = A
