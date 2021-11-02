@@ -1,0 +1,201 @@
+---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+BusInfoTech.createModules();
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine Emanuels
+
+ Course BB1BMI1: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Devine.enrol(BusInfoTech);
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine Emanuels
+
+ Course BB1BMI1: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Devine.awardTestMarks();
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine Emanuels
+
+ Course BB1BMI1: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+Student Devine = new Student("Devine Emanuels", 21364521);
+Course BusManInfoTech = new Course("BB1BMI1", "Business Management and Information Technology");
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BusManInfoTech);
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 21364521, Devine Emanuels
+
+ Course BB1BMI1: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	Programming Concepts	  15	75A
+
+ co455: 	Software Engeneering	  15	75A
+
+ co458: 	Business	  15	75A
+
+ co454: 	Web Programming	  15	75A
+
+
+ No Final Course Grade Yet!
+Devine.awardTestMarks();
+Student Devine = new Student();
+Course BusManInfoTech = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BusManInfoTech);
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine
+
+ Course G400: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	Programming Concepts	  15	75A
+
+ co455: 	Software Engeneering	  15	75A
+
+ co458: 	Business	  15	75A
+
+ co454: 	Web Programming	  15	75A
+
+
+ No Final Course Grade Yet!
+Student Devine = new Student();
+Course BMIT = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BMIT);
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine
+
+ Course G400: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	Programming Concepts	  15	75A
+
+ co455: 	Software Engeneering	  15	75A
+
+ co458: 	Business	  15	75A
+
+ co454: 	Web Programming	  15	75A
+
+
+ Final Course Grade = A
+Student Devine = new Student();
+Course BMIT = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+Devine.enrol(BMIT);
+Devine.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22136752, Devine
+
+ Course G400: Business Management and Information Technology
+
+ co452: 	Programming Concepts
+ co455: 	Software Engeneering
+ co458: 	Business
+ co454: 	Web Programming
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	Programming Concepts	  15	75A
+
+ co455: 	Software Engeneering	  15	65B
+
+ co458: 	Business	  15	55C
+
+ co454: 	Web Programming	  15	45D
+
+
+ Final Course Grade = B
+Student Devine = new Student();
+Course BMIT = new Course();
+Module co452 = new Module("CO452", "Programming concepts");
