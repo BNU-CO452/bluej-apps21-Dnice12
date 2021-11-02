@@ -4,8 +4,7 @@ import java.util.*;
  * It holds the student details relevant in our context.
  * 
  * @author Devine Emanuels
- * Modified Devine Emanuels
- * @version 19/10/2021
+ * @version 0.1 29/oct/2021
  */
 public class Student
 {
@@ -114,13 +113,9 @@ public class Student
         for(ModuleMark mark : marks)
         {
             mark.print();
-            System.out.printin
+            System.out.println(course.convertToGrade(mark.getValue()));
     }
          
-         
-
-    
-        
     }
     
      public void printTranscript()

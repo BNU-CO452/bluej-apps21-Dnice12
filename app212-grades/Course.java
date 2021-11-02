@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * that enrolled students may want to complete
  *
  * @author Devine Emanuels
- * @version 0.1 11/Sep/2020
+ * @version 0.1 29/oct/2021
  */
 public class Course
 {
@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("G400", "BSc Computing");
+        this("G400", "Business Management and Information Technology");
     }
     
     /**
@@ -97,7 +97,9 @@ public class Course
         {
             total = total + mark.getValue();
         }
-        return Grades.NS;
+        finalMark = total/4;
+        finalGrade = convertToGrade(finalMark);
+        return finalGrade;
     }
     
     /**

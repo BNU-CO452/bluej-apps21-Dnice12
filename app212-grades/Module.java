@@ -4,7 +4,7 @@
  * pass the module with a mark of 40+
  *
  * @author Devine Emanuels
- * @version 1.0 17/07/2021
+ * @version 0.1 29/oct/2021
  */
 public class Module
 {
