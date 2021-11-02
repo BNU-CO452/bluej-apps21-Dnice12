@@ -4,8 +4,8 @@
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Devine Emanuels
+ * @version 02/11/2021
  */
 public class StockDemo
 {
@@ -26,6 +26,14 @@ public class StockDemo
         stock.add(new Product(101, "Mercedes AMG GT"));
         stock.add(new Product(102, "BMW M8 GC"));
         stock.add(new Product(103, "Audi RS3"));
+        stock.add(new Product(104, "Mercedes AMG GT"));
+        stock.add(new Product(105, "BMW M8 GC"));
+        stock.add(new Product(106, "Audi RS3"));
+        stock.add(new Product(107, "Mercedes AMG GT"));
+        stock.add(new Product(108, "BMW M8 GC"));
+        stock.add(new Product(109, "Audi RS3"));
+        stock.add(new Product(110, "Audi RS3"));
+        
     }
     
     /**
@@ -50,11 +58,31 @@ public class StockDemo
     
     private void buyProducts()
     {
+        stock.buyProduct(101,8);
         stock.buyProduct(102,6);
-        stock.buyProduct(103,6);
+        stock.buyProduct(103,4);
+        stock.buyProduct(104,8);
+        stock.buyProduct(105,6);
+        stock.buyProduct(106,4);
+        stock.buyProduct(107,8);
+        stock.buyProduct(108,6);
+        stock.buyProduct(109,4);
+        stock.buyProduct(110,5);
     }
 
     private void sellProducts()
     {
+        stock.sellProduct(101,2);
+        stock.sellProduct(102,4);
+        stock.sellProduct(103,6);
+        stock.sellProduct(101,2);
+        stock.sellProduct(102,4);
+        stock.sellProduct(103,6);
+        stock.sellProduct(101,2);
+        stock.sellProduct(102,4);
+        stock.sellProduct(103,6);
+        stock.sellProduct(101,2);
+    
+        
     }    
 }
