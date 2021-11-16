@@ -30,7 +30,6 @@ public class StockList
     public void lowStockList()
     {
         printHeading();
-        
         for(Product product : stock)
         {
             if (product.getQuantity() < 4)

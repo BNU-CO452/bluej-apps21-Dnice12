@@ -1,0 +1,24 @@
+product1.print();
+ ID 104: Mercedes AMG GT stock level: 0
+product1.decreaseQuantity(5);
+product1.print();
+ ID 104: Mercedes AMG GT stock level: 0
+product1.increaseQuantity(8);
+product1.print();
+ ID 104: Mercedes AMG GT stock level: 8
+product1.decreaseQuantity(2);
+product1.print();
+ ID 104: Mercedes AMG GT stock level: 6
+Product product2 = new Product(103, "Audi RS3");
+product2.print();
+ ID 103: Audi RS3 stock level: 0
+StockList Cars = new StockList();
+Cars.add(product2);
+Cars.add(product1);
+Cars.print();
+
+ Emanuels' Stock List
+ ====================
+
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG GT stock level: 6
