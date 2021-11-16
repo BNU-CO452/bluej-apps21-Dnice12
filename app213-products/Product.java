@@ -1,7 +1,7 @@
 /**
  * Model some details of a product sold by a company.
  * 
- * @author Devine Emanuels
+ * @author Fiza Ayub
  * @version 02/11/2021
  */
 public class Product
@@ -51,6 +51,9 @@ public class Product
         return quantity;
     }
 
+    /**
+     * Sets the quantity of stock by an integer amount.
+     */
     public void setQuantity(int quantity)
     {
         this.quantity = quantity;

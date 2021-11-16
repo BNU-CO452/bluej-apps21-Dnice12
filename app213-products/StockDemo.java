@@ -1,16 +1,18 @@
-
+import java.util.ArrayList;
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author Devine Emanuels
+ * @author Fiza Ayub
  * @version 02/11/2021
  */
 public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    
+    public ArrayList<Product> products;
 
     /**
      * Create a StockManager and populate it with at least
@@ -23,16 +25,16 @@ public class StockDemo
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
-        stock.add(new Product(101, "Audi TT"));
-        stock.add(new Product(102, "BMW M8 GC"));
-        stock.add(new Product(103, "Audi RS3"));
-        stock.add(new Product(104, "Mercedes AMG GT"));
-        stock.add(new Product(105, "Range Rover Evoque"));
-        stock.add(new Product(106, "Mercedes A class"));
-        stock.add(new Product(107, "Audi A8"));
-        stock.add(new Product(108, "Vauxhall Astra Griffin"));
-        stock.add(new Product(109, "Peugeot E-208"));
-        stock.add(new Product(110, "BMW 220i"));
+        stock.add(new Product(101, "Samsung Galaxy S20"));
+        stock.add(new Product(102, "Apple iPhone 12"));
+        stock.add(new Product(103, "Google Pixel 4A"));
+        stock.add(new Product(104, "Apple iPad Air"));
+        stock.add(new Product(105, "Apple Airpods Pro"));
+        stock.add(new Product(106, "Google Chromebook"));
+        stock.add(new Product(107, "Samsung Z Flip"));
+        stock.add(new Product(108, "HP Inspiron 15 Laptop"));
+        stock.add(new Product(109, "Beats Headphones"));
+        stock.add(new Product(110, "Apple Pen"));
         
     }
     
@@ -53,36 +55,35 @@ public class StockDemo
         stock.print();        
 
         sellProducts();
-        stock.print();        
+        stock.print();     
     }
     
     private void buyProducts()
     {
-        stock.buyProduct(101,20);
-        stock.buyProduct(102,16);
-        stock.buyProduct(103,10);
-        stock.buyProduct(104,24);
-        stock.buyProduct(105,26);
-        stock.buyProduct(106,26);
-        stock.buyProduct(107,12);
-        stock.buyProduct(108,18);
-        stock.buyProduct(109,22);
-        stock.buyProduct(110,30);
+        stock.buyProduct(101, 6);
+        stock.buyProduct(102, 8);
+        stock.buyProduct(103, 8);
+        stock.buyProduct(104, 7);
+        stock.buyProduct(105, 9);
+        stock.buyProduct(106, 5);
+        stock.buyProduct(107, 9);
+        stock.buyProduct(108, 5);
+        stock.buyProduct(109, 6);
+        stock.buyProduct(110, 6);
+        
     }
 
     private void sellProducts()
-    {
-        stock.sellProduct(101,2);
-        stock.sellProduct(102,4);
-        stock.sellProduct(103,6);
-        stock.sellProduct(104,6);
-        stock.sellProduct(105,8);
-        stock.sellProduct(106,6);
-        stock.sellProduct(107,12);
-        stock.sellProduct(108,10);
-        stock.sellProduct(109,12);
-        stock.sellProduct(110,8);
-    
+    {   stock.sellProduct(101, 4);
+        stock.sellProduct(102, 6);
+        stock.sellProduct(103, 7);
+        stock.sellProduct(104, 5);
+        stock.sellProduct(105, 7);
+        stock.sellProduct(106, 2);
+        stock.sellProduct(107, 8);
+        stock.sellProduct(108, 4);
+        stock.sellProduct(109, 4);
+        stock.sellProduct(110, 3);
         
     }    
 }
