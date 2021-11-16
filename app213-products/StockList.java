@@ -11,11 +11,7 @@ public class StockList
 {
     // A list of the products.
     private ArrayList<Product> stock;
-    public ArrayList<Product> products;
-    
-    public int quantity;
-    public int id;
-    public String name; 
+    public ArrayList<Product> products; 
     //
     private int amountRequired;
     //Finds the product key
@@ -79,11 +75,11 @@ public class StockList
      */
     public void lowStocklist()
     {
-        printHeading();
-        for(Product product: stock)
-        { 
-            if(product.getQuantity() < 3)
-                product.increaseQuantity(10);
+     printHeading();
+    for(Product product: stock)
+    { 
+     if(product.getQuantity() < 3)
+      product.increaseQuantity(10);
     }
     System.out.println();
     for(Product product : stock)
@@ -160,7 +156,15 @@ public class StockList
             return("Product not Found");
         }
     }
-
+    
+    public void search(String phrase)
+    {
+        if(phrase.contains("Mercedes"))
+        {
+        }
+    }
+    
+    
     /**
      * Locate a product with the given ID, and return how
      * many of this item are in stock. If the ID does not

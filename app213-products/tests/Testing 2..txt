@@ -1,0 +1,15 @@
+DevineCars.remove(104)
+ ID 101: Audi TT stock level: 4
+    returned Object <object reference>
+ ID 102: BMW M8 GC  stock level: 4
+ ID 103: Audi RS3 stock level: 2
+DevineCars.searchForProduct("Mercedes");
+ ID 101: Audi TT stock level: 4
+ ID 102: BMW M8 GC  stock level: 4
+ ID 103: Audi RS3 stock level: 2
+ ID 105: Range Rover Evoque stock level: 4
+ ID 106: Mercedes A class stock level: 6
+ ID 107: Audi A8 stock level: 2
+ ID 108: Vauxhall Astra Griffin stock level: 2
+ ID 109: Peugeot E-208  stock level: 4
+ ID 110: BMW 220i stock level: 6

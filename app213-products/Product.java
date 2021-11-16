@@ -1,7 +1,7 @@
 /**
  * Model some details of a product sold by a company.
  * 
- * @author Fiza Ayub
+ * @author Devine Emanuels
  * @version 02/11/2021
  */
 public class Product
@@ -11,7 +11,7 @@ public class Product
     // The name of this product.
     private String name;
     // The quantity of this product in stock.
-    private int quantity;
+    public int quantity;
 
     /**
      * Constructor for objects of class Product.
