@@ -1,0 +1,9 @@
+# install4j response file for Visual Paradigm CE 16.3
+sys.adminRights$Boolean=true
+sys.fileAssociation.extensions$StringArray="vpp"
+sys.fileAssociation.launchers$StringArray="3"
+sys.installationDir=C\:\\Users\\Emanu\\OneDrive\\Documents\\GitHub\\bluej-apps21-Dnice12\\Visual Paradigm CE 16.3
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=Visual Paradigm CE

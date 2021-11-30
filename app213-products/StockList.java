@@ -93,13 +93,13 @@ public class StockList
      * if not found return null
      */
     public void searchForProduct(String productName)
+    {   
+     for (Product product: stock)
+        if(productName.contains(productName))
         {   
-            for (Product product: stock)
-                if(productName.contains(productName))
-                {   
-                    System.out.println(product); 
-                }
-            }
+            System.out.println(product); 
+        }
+    }
                                     
     /**
      * Find a product to match the product id,

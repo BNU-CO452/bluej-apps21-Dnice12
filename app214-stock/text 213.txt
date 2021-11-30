@@ -1,0 +1,199 @@
+Please enter the product name >
+Your input is blank!
+
+Please enter the product name >jaguar
+
+ Devine's Car stock
+ ====================
+
+ ID 101: Audi TT stock level: 0
+ ID 102: BMW M8 GC  stock level: 0
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG  stock level: 0
+ ID 105: Range Rover Evoque stock level: 0
+ ID 106: Mercedes A class stock level: 0
+ ID 107: Audi A8 stock level: 0
+ ID 108: Vauxhall Astra Griffin stock level: 0
+ ID 109: Peugeot E-208  stock level: 0
+ ID 110: BMW 220i stock level: 0
+ ID 200: jaguar stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Adding a new Product
+
+Please enter a product id >
+109
+ ID 101: Audi TT stock level: 0
+ ID 102: BMW M8 GC  stock level: 0
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG  stock level: 0
+ ID 105: Range Rover Evoque stock level: 0
+ ID 106: Mercedes A class stock level: 0
+ ID 107: Audi A8 stock level: 0
+ ID 108: Vauxhall Astra Griffin stock level: 0
+
+ Devine's Car stock
+ ====================
+
+ ID 101: Audi TT stock level: 0
+ ID 102: BMW M8 GC  stock level: 0
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG  stock level: 0
+ ID 105: Range Rover Evoque stock level: 0
+ ID 106: Mercedes A class stock level: 0
+ ID 107: Audi A8 stock level: 0
+ ID 108: Vauxhall Astra Griffin stock level: 0
+ ID 110: BMW 220i stock level: 0
+ ID 200: jaguar stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+buy a new Product
+
+Please enter a product id >
+101
+Please enter an amount to stock >
+30
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Devine's Car stock
+ ====================
+
+ ID 101: Audi TT stock level: 30
+ ID 102: BMW M8 GC  stock level: 0
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG  stock level: 0
+ ID 105: Range Rover Evoque stock level: 0
+ ID 106: Mercedes A class stock level: 0
+ ID 107: Audi A8 stock level: 0
+ ID 108: Vauxhall Astra Griffin stock level: 0
+ ID 110: BMW 220i stock level: 0
+ ID 200: jaguar stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > sell
+sell a Product
+
+Please enter a product id >
+101
+Please enter an amount to stock >
+10
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ Devine's Car stock
+ ====================
+
+ ID 101: Audi TT stock level: 20
+ ID 102: BMW M8 GC  stock level: 0
+ ID 103: Audi RS3 stock level: 0
+ ID 104: Mercedes AMG  stock level: 0
+ ID 105: Range Rover Evoque stock level: 0
+ ID 106: Mercedes A class stock level: 0
+ ID 107: Audi A8 stock level: 0
+ ID 108: Vauxhall Astra Griffin stock level: 0
+ ID 110: BMW 220i stock level: 0
+ ID 200: jaguar stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > check
+check a Product
+
+Please enter a product id >101
+********************************
+  App21-04: Stock Application 
+      by Student Name
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Buy:        Buy a product
+    Sell:       sells a product
+    Check:      checks a product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit

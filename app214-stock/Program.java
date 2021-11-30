@@ -1,10 +1,11 @@
 
 /**
- * Write a description of class Program here.
+ * Initiates the interface of the Program
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Devine Emanuels
+ * @version 30/11/2021
  */
+
 public class Program
 {
     private static StockApp app;
